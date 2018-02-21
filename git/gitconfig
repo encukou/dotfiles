@@ -1,0 +1,45 @@
+[user]
+	name = Petr Viktorin
+[grep]
+	lineNumber = true
+[push]
+	default = simple
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+        ui = true
+[color "diff"]
+        whitespace = red reverse
+[color "decorate"]
+        branch = green
+[grep]
+        linenumber = 1
+[core]
+	excludesfile = /home/pviktori/dev/dotfiles/git/global_ignore
+	editor = nano
+[interactive]
+        singlekey = true
+[diff "apitxt"]
+        xfuncname = ^command: .*
+[diff "ldif"]
+        xfuncname = ^dn:.*
+[merge]
+        conflictstyle = diff3
+[diff]
+        wordregex = [a-zA-Z0-9_]+|[^ \\r\\t\\n]
+	compactionHeuristic = true
+[rerere]
+        enabled = true
+[submodule]
+	fetchJobs = 4
+[rebase]
+	autostash = true
+[gui]
+	spellingdictionary = none
+	encoding = utf-8
+[diff "htmltidy"]
+	textconv = htmltidy-diff-cleaner
+[commit]
+	verbose = 1

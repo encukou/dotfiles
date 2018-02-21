@@ -1,0 +1,5 @@
+My config files.
+
+Intended to live in ~/dev/dotfiles
+
+Set up symlinks with ./setup.sh
